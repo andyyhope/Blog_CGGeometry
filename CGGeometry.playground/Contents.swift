@@ -32,10 +32,28 @@ let sizeZero = CGSize.zero
 let pointZero = CGPoint.zero
 
 
-// Alternatices
+// Alternatives
 //let rectZero: CGRect = .zero
 //let sizeZero: CGSize = .zero
 //let pointZero: CGPoint = .zero
+
+
+/// Value Retrievers
+
+let minX = rect.minX
+let midX = rect.midX
+let maxX = rect.maxX
+
+let minY = rect.minY
+let midY = rect.midY
+let maxY = rect.maxY
+
+let width = rect.width
+let height = rect.height
+
+let isEmpty = rect.isEmpty
+let isNull = rect.isNull
+let isInfinite = rect.isInfinite
 
 
 /// Mutability
