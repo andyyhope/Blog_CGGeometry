@@ -19,7 +19,7 @@ let oldPointZero = CGPointZero
 
 /// New way of doing things, yummy
 
-var rect = CGRect(x: 0, y: 0, width: 100, height: 100)
+let rect = CGRect(x: 0, y: 0, width: 100, height: 100)
 
 let size = CGSize(width: 100, height: 100)
 
@@ -27,9 +27,7 @@ let point = CGPoint(x: 0, y: 0)
 
 let rectZero = CGRect.zero
 
-
 let sizeZero = CGSize.zero
-
 
 let pointZero = CGPoint.zero
 
