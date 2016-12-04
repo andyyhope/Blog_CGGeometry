@@ -4,6 +4,7 @@ import UIKit
 
 /// Old way of doing things, yucky.
 
+/*
 let oldRect = CGRectMake(0,0,100,100)
 
 let oldSize = CGSizeMake(100, 100)
@@ -15,6 +16,9 @@ let oldRectZero = CGRectZero
 let oldSizeZero = CGSizeZero
 
 let oldPointZero = CGPointZero
+*/
+
+
 
 
 /// New way of doing things, yummy
